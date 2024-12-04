@@ -32,7 +32,7 @@ defmodule Heroicons.MixProject do
       {:phoenix_html, "~> 3.2 or ~> 4.0"},
       {:ex_doc, "~> 0.27", only: :dev, runtime: false},
       {:floki, ">= 0.32.0", only: :test},
-      {:phoenix_live_view, "~> 0.20", optional: true},
+      {:phoenix_live_view, "~> 0.20 or ~> 1.0", optional: true},
       {:surface, "~> 0.11", optional: true}
     ]
   end
